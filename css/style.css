@@ -1,0 +1,72 @@
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    background-color: paleturquoise;
+    height: 50px;
+}
+.logo{
+    margin-right: 10px;
+    margin-left: 5px;
+    border: solid;
+    width: 150px;
+    height: 30px;
+    border-radius: 0px 6px 80px 0px;
+    border-color: lightblue;
+    background-color: gainsboro;
+}
+.usuario{
+    border: solid;
+    margin-left: 10px;
+    width: 200px;
+    background-color: lavenderblush;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 100px;
+}
+
+
+
+
+.primera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.andrea {
+    margin-right: 10px;
+    border: solid;
+}
+.briant {
+    border: solid;
+    margin-left: 10px;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ella{
+    background-color: skyblue;
+    margin-right: 36px;
+    border-radius: 16px;
+    width: 37px;
+}
+.el{
+    background-color: skyblue;
+    margin-left: 36px;
+    border-radius: 16px;
+    width: 37px;
+}
+.continuar{
+    border: revert;
+    background-color: antiquewhite;
+    border-color: yellow;
+}
