@@ -1,26 +1,45 @@
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    background: black;
+}
+:root {
+    --white: #FFFFFF;
+    --black: #000000; 
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #f7f7f7;
+    --hospital-green: #ACD9B2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 19px;
+
+}
 .encabezado {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 15px;
-    background-color: paleturquoise;
+    background: transparent;
+    color: beige;
     height: 50px;
 }
 .logo{
     margin-right: 10px;
     margin-left: 5px;
-    border: solid;
+    
     width: 150px;
     height: 30px;
-    border-radius: 0px 6px 80px 0px;
-    border-color: lightblue;
-    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .usuario{
-    border: solid;
+    
     margin-left: 10px;
     width: 200px;
-    background-color: lavenderblush;
+
     margin-right: 5px;
     display: flex;
     align-items: center;
@@ -30,43 +49,876 @@
 input{
     width: 100px;
 }
-
-
-
+#primera-hoja{
+    background-image: url(/Users/User/serio/assets/fondo4.jpg);
+    background-size: 134%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 67px;
+    flex-direction: column;
+}
 
 .primera {
+   
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 15px;
 }
-.andrea {
+.andrea,
+.andrea2 {
     margin-right: 10px;
-    border: solid;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    box-sizing: border-box;
 }
-.briant {
-    border: solid;
+.andrea img,
+.andrea2 img {
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 30px;
+    margin-top: 10px;
+}
+.andrea img:hover{
+    border-radius: 55%;
+    border: inset;
+    border-color: goldenrod;
+    cursor: pointer;
+}
+.briant,
+.briant2 {
     margin-left: 10px;
+}
+.briant img,
+.briant2 img {
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 30px;
+    
+}
+.briant img:hover {
+    border-radius: 55%;
+    border: inset;
+    border-color: goldenrod;
+    cursor: pointer;
+}
+.intro p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.guia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .botones{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.ella{
-    background-color: skyblue;
-    margin-right: 36px;
-    border-radius: 16px;
-    width: 37px;
+
+.pasado{
+    
+    background: transparent;
+    border: none;
+    box-shadow: 5px 5px 29px;
+    border-radius: 8px;
+    
 }
-.el{
-    background-color: skyblue;
-    margin-left: 36px;
-    border-radius: 16px;
-    width: 37px;
+
+.pasado:hover {
+    box-shadow: none;
 }
-.continuar{
+#pasado {
+    background-image: url(/Users/User/serio/assets/fondo-pasado-de-moda-del-grunge-12383948.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.atras{
     border: revert;
-    background-color: antiquewhite;
-    border-color: yellow;
+    background-color: beige;
+    border-color: brown;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.atras:hover {
+    border-color: lightblue;
+}
+.intro2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    box-shadow: 5px 5px 5px;
+    margin: 10px;
+    background: linear-gradient(11deg, brown, transparent);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.pandrea{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(/Users/User/serio/assets/tablones-de-madera-coloreados-pastel-textura-o-fondo-92022404.jpg);
+    background-size: 115%;
+}
+.basicoa {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.basicoa1{
+    display: flex;
+}
+.historia,
+.historia1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.historia p {
+    width: 400px;
+}
+.historia img {
+    transform: rotate(180deg);
+}
+.trabajo-pasado {
+    display: flex;
+    
+}
+.trabajo-pasado2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 15px;
+}
+.trabajo-pasado2 img {
+    margin: 5px;
+    box-sizing: border-box;
+}
+.trabajo-pasado2 img:hover {
+    border-radius: 30px;
+    border: inset;
+    border-color: goldenrod;
+    cursor: pointer;
+   
+}
+.trabajo-pasado2 img,
+.trabajo-pasado button{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+#pasadoprimero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/Users/User/serio/assets/fondo2.jpg);
+    background-size: 135%;
+    height: 100vh;
+}
+#pasadoprimero p{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0px 153px;
+    color: white;
+    border: solid;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+.lista-briant{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr
+    
+}
+.lista-briant p{
+    padding: 0!important;
+    font-size: var(--lg);
+    font-weight: bold;
+}
+.lista-briant li {
+    font-size: var(--sm);
+    
+}
+.lista-briant ul {
+    list-style: none;
+    padding: 0;
+    color: lightblue;
+    background: linear-gradient(45deg, black, transparent);;
+    box-sizing: border-box;
+    padding: 0px 3px 3px 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+}
+#trabajosdelpasado{
+    display: flex;
+    justify-content: center;
+}
+#para2pasado{
+    background-color: var(--white);
+    border-radius: 8px;
+    border: solid green 1px;
+    color: var(--hospital-green);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    width: 140px;
+    bottom: 8px;
+    position: absolute;
+}
+#para2pasado:hover{
+    border-radius: 12px;
+    border: solid green 1px;
+    background-color: var(--hospital-green);
+    color: var(--white);
+}
+#para3pasado{
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    width: 140px;
+    bottom: 8px;
+    position: absolute;
+}
+#para3pasado:hover{
+    border-radius: 12px;
+    border: solid green 1px;
+}
+#para4pasado{
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    width: 140px;
+    bottom: 8px;
+    position: absolute;
+}
+#para4pasado:hover{
+    border-radius: 12px;
+    border: solid green 1px;
+}
+#para5pasado{
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    width: 140px;
+    bottom: 8px;
+    position: absolute;
+}
+#para5pasado:hover{
+    border-radius: 12px;
+    border: solid green 1px;
+}
+#para6pasado{
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    width: 140px;
+    bottom: 8px;
+    position: absolute;
+}
+#para6pasado:hover{
+    border-radius: 12px;
+    border: solid green 1px;
+    color: var(--hospital-green);
+    background-color: white;
+}
+#pasadosegundo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 314px;
+    height: 100vh;
+    background-image: url(/Users/User/serio/assets/pasado2.jpg);
+    background-size: 112%;
+    background-position: center;
+}
+#pasadosegundo p{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 26px;
+    background: transparent;
+    border-radius: 14px;
+    color: white;
+    border: solid 1px;
+    box-shadow: 5px 5px 10px black;
+
+}
+#pasadotercero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 314px;
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+    justify-content: flex-start;
+    background-image: url(/Users/User/serio/assets/gotas-de-lluvia-en-ventana-10243.webp);
+    background-size: 95%;
+}
+#pasadotercero p{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 26px;
+    background: transparent;
+    border-radius: 14px;
+    color: white;
+    border: solid 1px;
+    box-shadow: 5px 5px 10px black;
+
+}
+.mirame-tocame {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.mirame-tocame button{
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    background: transparent;
+    border-radius: 50%;
+    color: transparent;
+    border: solid 1px;
+    box-shadow: 5px 5px 10px black;
+}
+.mirame-tocame button:hover {
+    color: var(--white);
+}
+#pasadocuarto{
+    display: flex;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 314px;
+    flex-direction: column;
+    background-image: url(/Users/User/serio/assets/covnersa.jpg);
+}
+#pasadocuarto p:nth-child(1){
+    width: 100%;
+    box-sizing: border-box;
+    padding: 26px;
+    background: transparent;
+    border-radius: 14px;
+    color: black;
+    border: solid 1px;
+    box-shadow: 5px 5px 10px black;
+    font-weight: bold;
+
+}
+#pasadocuarto p:nth-child(2){
+    color: var(--black);
+
+}
+#conversacionpp{
+    display: flex;
+    flex-direction: column;
+}
+#conversacionpp  p:nth-child(1){
+    background: mistyrose;
+    border-radius: 14px;
+    padding: 8px;
+    margin: 4px;
+}
+#conversacionpp  p:nth-child(2){
+    background: rosybrown;
+    color: black!important;
+    border-radius: 14px;
+    padding: 8px;
+    margin: 4px;
+    border: solid 1px;
+    box-shadow: 5px 5px 10px black;
+    font-weight: bold;
+}
+#conversacionpp  p:nth-child(3){
+    background: mistyrose;
+    border-radius: 14px;
+    padding: 8px;
+    margin: 4px;
+    border: solid 1px;
+    box-shadow: 5px 5px 10px black;
+    font-weight: bold;
+}
+#conversacionpp  p:nth-child(4){
+    background: rosybrown;
+    border-radius: 14px;
+    padding: 8px;
+    margin: 4px;
+    border: solid 1px;
+    box-shadow: 5px 5px 10px black;
+    font-weight: bold;
+}
+#conversacionpp  p:nth-child(5){
+    background: mistyrose;
+    border-radius: 14px;
+    padding: 8px;
+    margin: 4px;
+    border: solid 1px;
+    box-shadow: 5px 5px 10px black;
+    font-weight: bold;
+}
+#conversacionpp  p:nth-child(6){
+    background: pink;
+    border-radius: 14px;
+    padding: 8px;
+    margin: 4px;
+    border: solid 1px;
+    box-shadow: 5px 5px 10px black;
+    font-weight: bold;
+}
+#pasadoquinto{
+    display: flex;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/Users/User/serio/assets/encuentrame.jpg);
+    background-size: 100%;
+}
+
+.texto5oculto{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    width: 100%;
+}
+.texto5oculto p:nth-child(1){
+    background: transparent;
+    color: transparent;
+    padding: 14px;
+    border-radius: 36px;
+    margin: 5px;
+    height: 90px;
+}
+.texto5oculto p:nth-child(1):hover{
+    border: solid 1px;
+    box-shadow: inset 0px 0px 10px 0px darkblue;
+   
+    color: white;
+    padding: 14px;
+    border-radius: 36px;
+    margin: 5px;
+    height: 115px;
+}
+.texto5oculto p:nth-child(2){
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 32px 0px black;
+    padding: 26px;
+    background: skyblue;
+    border-radius: 14px;
+}
+.texto5oculto p:nth-child(3){
+    background: transparent;
+    color: transparent;
+    padding: 14px;
+    border-radius: 36px;
+    margin: 5px;
+    height: 90px;
+}
+.texto5oculto p:nth-child(3):hover{
+    border: solid 1px;
+    box-shadow: inset 0px 0px 10px 0px red;
+   
+    color: white;
+    padding: 14px;
+    border-radius: 36px;
+    margin: 5px;
+    height: 95px;
+}
+.texto5oculto1{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    width: 100%;
+    
+    justify-items: center;
+}
+.texto5oculto1 p:nth-child(1){
+    background: transparent;
+    color: transparent;
+    padding: 14px;
+    border-radius: 36px;
+    margin: 5px;
+    height: 110px;
+}
+.texto5oculto1 p:nth-child(1):hover{
+    border: solid 1px;
+    box-shadow: inset 0px 0px 10px 0px yellow;
+   
+    color: pink;
+    padding: 14px;
+    border-radius: 36px;
+    margin: 5px;
+    height: 155px;
+}
+.texto5oculto1 p:nth-child(2){
+    color: var(--very-light-pink);
+}
+.texto5oculto1 p:nth-child(3){
+    background: transparent;
+    color: transparent;
+    padding: 14px;
+    border-radius: 36px;
+    margin: 5px;
+    height: 125px;
+}
+.texto5oculto1 p:nth-child(3):hover{
+    border: solid 1px;
+    box-shadow: inset 0px 0px 10px 0px greenyellow;
+   
+    color: brown;
+    padding: 14px;
+    border-radius: 36px;
+    margin: 5px;
+    height: 140px;
+}
+#pasadosexto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 314px;
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+    background-image: url(/Users/User/serio/assets/nubes.jpg);
+    justify-content: flex-start;
+    background-size: 100%;
+}
+#pasadosexto p:nth-child(1){
+    width: 100%;
+    box-sizing: border-box;
+    padding: 26px;
+    background: transparent;
+    border-radius: 14px;
+    color: white;
+    border: solid 1px;
+    box-shadow: 5px 5px 10px black;
+
+}
+#parapresente{
+    background-color: lightblue;
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    width: 140px;
+    bottom: 8px;
+    position: absolute;
+}
+#parapresente:hover{
+    border-radius: 12px;
+    border: solid green 1px;
+}
+
+#presenteac{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/Users/User/serio/assets/jugar.jpg);
+    background-size: 100%;
+    
+}
+#presenteac div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: lightgoldenrodyellow;
+    border-radius: 40px;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: 5px 5px 30px;
+    margin-top: 20px;
+}
+#jugar{
+    background-color: lightblue;
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    width: 140px;
+    bottom: 8px;
+    position: absolute;
+}
+#jugar:hover{
+    border-radius: 12px;
+    border: solid green 1px;
+}
+#encontrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/Users/User/serio/assets/colorful-2468874_640.jpg);
+    height: 100vh;
+}
+#encontrar div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: lightgoldenrodyellow;
+    border-radius: 40px;
+    margin-top: 50px;
+    width: 650px;
+    box-shadow: 5px 5px 30px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 16px;
+}
+#primerobjeto{
+    background-color: lightblue;
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    width: 140px;
+    bottom: 8px;
+    position: absolute;
+}
+#primerobjeto:hover{
+    border-radius: 12px;
+    border: solid green 1px;
+}
+
+
+
+
+#encontrar2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/Users/User/serio/assets/colorful-2468874_640.jpg);
+    height: 100vh;
+}
+#encontrar2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: lightgoldenrodyellow;
+    border-radius: 40px;
+    width: 650px;
+    box-shadow: 5px 5px 30px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 16px;
+}
+#segundoobjeto{
+    background-color: lightblue;
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    width: 140px;
+    bottom: 8px;
+    position: absolute;
+}
+#segundoobjeto:hover{
+    border-radius: 12px;
+    border: solid green 1px;
+}
+
+
+
+#encontrar3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/Users/User/serio/assets/colorful-2468874_640.jpg);
+    height: 100vh;
+}
+#encontrar3 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: lightgoldenrodyellow;
+    border-radius: 40px;
+    width: 650px;
+    box-shadow: 5px 5px 30px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 16px;
+}
+#tercerobjeto{
+    background-color: lightblue;
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    width: 140px;
+    bottom: 8px;
+    position: absolute;
+}
+#tercerobjeto:hover{
+    border-radius: 12px;
+    border: solid green 1px;
+}
+
+
+#encontrar4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/Users/User/serio/assets/colorful-2468874_640.jpg);
+    height: 100vh;
+}
+#encontrar4 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: lightgoldenrodyellow;
+    border-radius: 40px;
+    width: 650px;
+    box-shadow: 5px 5px 30px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 16px;
+}
+#cuartoobjeto{
+    background-color: lightblue;
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    width: 140px;
+    bottom: 8px;
+    position: absolute;
+}
+#cuartoobjeto:hover{
+    border-radius: 12px;
+    border: solid green 1px;
+}
+
+
+#encontrar5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/Users/User/serio/assets/colorful-2468874_640.jpg);
+    height: 100vh;
+}
+#encontrar5 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: lightgoldenrodyellow;
+    border-radius: 40px;
+    width: 650px;
+    box-shadow: 5px 5px 30px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 16px;
+}
+#quintoobjeto{
+    background: black;
+    box-shadow: 5px 5px 30px;
+    
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    width: 140px;
+    bottom: 8px;
+    position: absolute;
+}
+#quintoobjeto:hover{
+    border-radius: 12px;
+    border: solid green 1px;
+}
+
+#futuro1 {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+#futuro1 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        background: aliceblue;
+    box-shadow: 5px 5px 89px cornflowerblue;
+
+    border-radius: 40px;
+    width: 650px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 16px;
+}
+
+
+
+
